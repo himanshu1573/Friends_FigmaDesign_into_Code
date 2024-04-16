@@ -1,0 +1,510 @@
+@font-face {
+    font-family: regular;
+    src: url(Aeonic-reg.otf)
+}
+@font-face {
+    font-family:slant ;
+    src: url(italic.ttf);
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    /* overflow-x: hidden; */
+
+    /* line-height: 0.2; */
+    /* line-height: calc(1em + 0.5rem); */
+}
+
+.wrapper {
+    background-color: #ededed;
+}
+
+.logo {
+    width: 35px;
+
+}
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    background-color: rgb(255, 249, 250)transparent;
+    padding: 20px 10%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.navbar{
+    /* background-color: red; */
+    margin-right: -80px;
+    font-family: regular;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    margin-right: 35px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.text {
+    padding-top: 4.6%;
+}
+
+.l1,
+.l2,
+.l3 {
+    text-align: center;
+    font-weight: 300;
+    font-family: regular;
+    font-size: 50px;
+    line-height: 1;
+
+}
+.l1 #l22{
+    font-family: slant,'poppins';
+}
+.l1 #l11{
+    background: linear-gradient(90deg, #944EEB, #44BDFC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.l2 a{
+    text-decoration:2.2px underline;
+}
+.icon{
+    z-index: -2;
+}
+
+.content-left-icon {
+
+    display: inline-block;
+    position: absolute;
+    bottom: 50%;
+    right: 8%;
+
+    justify-content: space-between;
+    transform: translate(90%, 70%);
+}
+
+.content-left-icon i {
+    display: block;
+    margin-bottom: 100px;
+    font-size: 40px;
+}
+
+.hero {
+    /* border: 1px solid red; */
+    background: url(/assets/Home-images/Parth.png) no-repeat;
+    position: relative;
+    z-index: 100; 
+    
+    background-position: center top;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-position-y: 8vh;
+    margin-top: -15%;
+  
+   
+}
+
+.page-content{
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+
+.content-right-icons {
+    display: flex;
+    align-items: center;
+}
+
+.more-project {
+    /* border: 1px solid red; */
+    text-align: right;
+    padding-right: 15%;
+   
+    font-size: 1.4rem;
+    font-family: regular;
+    margin-top: -2rem;
+    opacity: 0.7;
+    
+   
+}
+
+/* .hero {
+    border: 2px solid #030303;
+
+} */
+.content-text {
+    border: 2px solid red;
+    padding: 0% 20% 35% 30%;
+}
+
+.content-text .text {
+
+
+    font-size: 20px;
+    font-family: regular;
+    font-weight: 500;
+    line-height: 1.1;
+    /* font-stretch:expanded; */
+    letter-spacing: 2px
+}
+
+
+
+.content-production {
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.subcontent {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.media {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.project-container{
+    background-color: #d9d9d9;
+}
+
+.gallery {
+
+    display: grid;
+    /* margin: 0% 2%; */
+    
+    grid-template-columns: repeat(2, 1fr);
+    /* column-gap: 2.5rem; */
+    /* padding: 1% 1%; */
+    /* background: #999999 */
+    /* Add padding around the grid */
+
+}
+
+.gallery img {
+    width: auto;
+    /* Set width to 100% of their container */
+    height: auto;
+    /* Maintain aspect ratio */
+    max-width: 70%;
+    /* Set maximum width for each image */
+}
+.project-content{
+    padding-top:4% ;
+    padding-left: 3%;
+}
+.projects-1 {
+    position: relative;
+
+    transition: background-color 0.3s ease; /* Add transition effect for background color */
+}
+.projects-2 {
+    position: relative;
+    transition: background-color 0.3s ease; /* Add transition effect for background color */
+}
+.projects-3 {
+    position: relative;
+    transition: background-color 0.3s ease; /* Add transition effect for background color */
+}
+.projects-4 {
+    position: relative;
+    transition: background-color 0.3s ease; /* Add transition effect for background color */
+}
+
+
+.projects-1:hover {
+    background-color: #ffffff; /* Change the background color to your desired color */
+}
+.projects-2:hover {
+    background-color: #fcfcfc; /* Change the background color to your desired color */
+}
+.projects-3:hover {
+    background-color: #ffffff; /* Change the background color to your desired color */
+}
+.projects-4:hover {
+    background-color: #ffffff; /* Change the background color to your desired color */
+}
+.projects-2 img{
+    max-width: 100%;
+}
+.projects-3 img{
+    height: 18rem;
+    padding-bottom: 8%;
+}
+.projects-4{
+    max-width:100%;
+}
+
+.heading,
+.subheading {
+    font-size: 18px;
+    line-height: 0.7;
+    font-weight: 100;
+    padding-left: 4%;
+    /* padding-top:3%; */
+
+}
+
+.heading {
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: regular;
+}
+
+.images1,
+.images2,
+.images3,
+.images4 {
+    max-width: 100%;
+    /* Ensure images don't exceed the width of their container */
+    height: auto;
+    /* Maintain aspect ratio */
+    position: relative;
+
+}
+
+.images1 {
+    height: 40vh;
+    width: 35vw;
+    top: -0.2%;
+    left: 15%;
+
+}
+
+.images2 {
+    height: 30vh;
+    width: 40vw;
+    top: 17%;
+    left: 6%;
+}
+
+.images3 {
+    height: 250px;
+    width: 280px;
+    top: 10%;
+    left: 30%;
+}
+
+.images4 {
+    height: 40vh;
+    width: 35vw;
+    top: 3%;
+    left: 15%;
+}
+
+.content-production {
+    border: 1px solid black;
+    background-color: #ededed;
+    /* height: 100vh; */
+    width: 100vw;
+    /* font-family: regular; */
+    
+    padding-left: 4%;
+    
+    
+}
+.content-production1{
+    font-size: 2rem;
+    font-family: regular;
+    margin-top: 1%;
+}
+.content-main{
+    display: flex;
+    background-color: #ededed;
+   
+}
+
+
+.content {
+   
+    font-size: 10rem;
+    font-family: regular;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.subcontent {
+    
+    font-size: 24px;
+    font-family: regular;
+    padding-left: 10%;
+    padding: 10% 12%;
+
+}
+.see-all{
+    text-align: right;
+  padding: .3% 3% .3% 1%;
+  text-decoration: underline;
+}
+.see-all a,i{
+    font-size: 1.3rem;
+    
+}
+.media {
+   
+    width: 500px;
+    /* height: 308px; */
+    
+
+}
+.image-container{
+    border: 1px solid rgb(128, 0, 126);
+    margin: 4% 10% 4% 4%;
+    /* background: #030303; */
+    border-radius: 10px;
+    width: auto; /* Make the image fill the container */
+    height: auto; /* Make the image fill the container */
+    object-fit: cover; /* Scale the image while preserving aspect ratio */
+}
+
+.title {
+    font-size: 2rem;
+    padding-top: 2%;
+    padding-left: 4%;
+    font-family: regular;
+}
+.clients-section{
+    border: 1px solid black;
+    background-color: #ededed;
+    
+}
+.client-main{
+    
+    margin: 2% 3% 8% 3%;
+}
+
+.footer {
+    background-color: #030303;
+    color: white;
+    padding: 4% 10%;
+
+}
+
+.email a {
+    background: linear-gradient(90deg, #944EEB, #44BDFC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+
+
+    padding: 10px 10px;
+    /* Add padding to the email link for better appearance */
+
+
+}
+
+.content1,
+.email,
+.icons {
+
+    text-align: center;
+    font-family: regular;
+    padding-bottom: 20px;
+    line-height: 1;
+}
+
+.content1 h2 {
+    font-size: 25px;
+   
+}
+.content1 p {
+    font-size: 25px;
+}
+.content1 a{
+    text-decoration: 1.8px underline;
+}
+.email {
+    padding-top:1.6%;
+    font-size: 25px;
+
+}
+
+.icons {
+
+    padding-top: 3.6%;
+    margin-left: 4%;
+
+}
+
+.icons i {
+    font-size: 2.7em;
+    margin-right: 4%;
+    text-decoration: none;
+
+}
+
+/* navbar hovering */
+.navbar .nav-link::after {
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    height: 2px;
+    width: 0;
+    bottom: 0; /* Align with the bottom of the text */
+    left: 0; /* Align with the beginning of the text */
+    transition: width 0.3s; /* Add transition for width change */
+}
+
+.navbar .nav-link:hover::after,
+        .navbar .active::after {
+            width: 100%; /* Expand the underline on hover and for active link */
+        }
+
+
+/* home page content */
+
+/* footer nav */
+.navbar-down a {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    position:relative;
+    margin-left: 11%;
+    font-family: regular;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footerNav{
+    padding-bottom: 3%;
+    margin-left: 30%;
+    margin-right: 33%;
+    /* padding-left: 1%; */
+    /* border: 2px solid white; */
+}

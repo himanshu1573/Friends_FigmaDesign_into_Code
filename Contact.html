@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/da4063c01e.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <a href="index.html"> <img src="/assets/Home-images/SiteLogo.png" alt="Parth" class="logo"></a>
+            <nav class="navbar">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="Work.html" class="nav-link">Work</a>
+                <a href="About.html" class="nav-link">About</a>
+                <a href="Contact.html" class="nav-link">Contact</a>
+            </nav>
+        </header>
+        <div class="box">
+            <div class="hello">
+               <p>Say Hello </p>
+            </div>
+            <div class="mainbox">
+                <div class="text-box">
+                  
+
+                    <div class="text1">
+                        <p>Looking to start a new project or just want to say hi? Fill the form and I will do my best to reply within 24 hours!</p>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="text2">
+                        <p>If contact forms aren't your thing... send me an email at <a href="mailto:parthninave08@gmail.com">parthninave08@gmail.com</a> </p>
+                    </div>
+                    
+                </div>
+                    <div class="form-box">
+                        <form>
+                            <div class="name">
+                                <div class="name-left">
+                                    <label for="name">Name *</label> <br>
+                                    <input type="text" placeholder="First Name">
+                                </div>
+                                <div class="name-right">
+                                    <label for="lname"></label><br>
+                                    <input type="text"  id="lname" placeholder="Last Name"><br><br>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="form-mid">
+                                <div class="enquiry">
+                                    <label for="enquiry">Enquiry *</label><br>
+                                    <input type="text" placeholder="Collab/Client">
+                                </div>
+                                <div class="form-email">
+                                    <label for="email">Email *</label><br>
+                                    <input type="email" placeholder="@gmail.com"><br><br>
+                                </div>
+                            </div>
+                
+
+                           
+                           
+                
+                            <label for="message">Message *</label><br>
+                            <textarea name="message" cols="50" rows="5" placeholder="Hello..."></textarea><br><br>
+                
+                            <button class="btn" style="background-color: white;">Send</button>
+                
+                        </form>
+                    </div>
+                
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footerNav">
+                <nav class="navbar-down">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="Work.html" class="nav-link">Work</a>
+                    <a href="About.html" class="nav-link">About</a>
+                    <a href="Contact.html" class="nav-link">Contact</a>
+                </nav>
+            </div>
+
+            <div class="content1">
+                <h2>You’ve hit the footer, thanks for stopping by.
+                </h2>
+                <p><a href="Contact.html">Still Curious?</a>
+                </p>
+
+            </div>
+            <div class="email">
+                <a href="mailto:parthninave08@gmail.com">parthninave08@gmail.com</a>
+            </div>
+            <div class="icons">
+
+                <a href="https://www.instagram.com/parnive_?igsh=MWZ0OHR3eXdvYXNoMw==" target="_blank">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/parth-n-805691213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                    <a href="https://www.linkedin.com/in/parth-n-805691213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <i class="fab fa-linkedin fa-xl"></i>
+                    </a>
+                    
+                </a>
+                
+            </div>
+        </div>
+
+    </div>
+    <script>
+        // Get the current page URL
+        var currentPageUrl = window.location.href;
+
+        // Get all navigation links
+        var navLinks = document.querySelectorAll('.navbar .nav-link');
+
+        // Loop through each navigation link
+        navLinks.forEach(function(link) {
+            // Check if the link's href matches the current page URL
+            if (link.href === currentPageUrl) {
+                // Add the 'active' class to the link
+                link.classList.add('active');
+            }
+        });
+    </script>
+</footer>
+</body>
+</html>

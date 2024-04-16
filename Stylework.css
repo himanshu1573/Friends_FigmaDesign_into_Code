@@ -1,0 +1,410 @@
+@font-face{
+    font-family: regular;
+    src:url(Aeonic-reg.otf)
+}
+@font-face {
+    font-family:tilt ;
+    src: url(italic.ttf);
+}
+body {
+    overflow-x: hidden;
+    overflow-y:visible;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+    /* line-height: 0.2; */
+    /* line-height: calc(1em + 0.5rem); */
+}
+.logo{
+width: 30px;
+
+
+
+}
+.wrapper{
+    background-color: #EDEDED;
+    
+}
+.header{
+    top: 0;
+    left: 0;
+    width: 100vw;
+    position:relative;
+    display: flex;
+    background-color:rgb(255, 249, 250)transparent;
+    padding:  20px  10%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+
+    
+}
+
+.navbar{
+    /* background-color: red; */
+    margin-right: -80px;
+    font-family: regular;
+}
+.navbar a {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-right: 35px;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3 sec;
+    text-decoration: none;
+    position: relative;
+}
+.heading {
+    font-family: tilt;
+    background: linear-gradient(to right, #944EEB, #44BDFC); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-top: 7%;
+    text-align: center; /* Center align the text */
+    font-size: 4.1rem; 
+    /* Adjust font size */
+    font-weight:600; 
+    /* Make the text bold */
+    margin-bottom: 20px; 
+}
+.head1,
+.head2 {
+    text-align: center; /* Center align the text */
+    line-height: 1; 
+    font-size: 30px;
+    font-family: regular;
+}
+
+.image-gallery {
+    display: grid;
+    
+    margin: 0% 6%;
+    
+    grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+    margin-top: 10%;
+    row-gap: 5rem; /* Reduce the gap between rows */
+    column-gap: 2.5rem; /* Reduce the gap between columns */
+     /* Padding on the left and right */
+     
+     padding: 0% 10%;
+   
+}
+
+.image-gallery img {
+    width: auto; /* Set width to 100% of their container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Set maximum width for each image */
+    transition: transform 0.5s ease, box-shadow 0.4s ease;
+}
+.image-gallery img:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+    box-shadow: 0 5px 10px #8B8888; /* Add shadow on hover */
+}
+.content-wrapper{
+   
+    border: 1px solid black;
+    margin-top: 6%;
+   
+}
+
+.side-Projects{
+    margin: 1% 10%;
+    font-family: regular;
+   
+}
+.logo-content{
+    display:inline-flex;
+}
+.side-content{
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Align items vertically */
+    margin: 6% 20%;
+    font-family: regular;
+   
+   
+}
+
+.side-content1{
+    
+    border-bottom: 1px solid black;
+    font-family: regular; 
+  
+  
+    padding-bottom: 2%;
+}
+.side-content2{
+    
+    border-bottom: 1px solid black; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: regular;
+    .text{
+        justify-content: center;
+        padding-top: 3.5%;
+    }
+    
+}
+.side-content3{
+    
+    border-bottom: 1px solid black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: regular;
+    .text{
+        justify-content: center;
+        padding-top: 10%;
+    }
+}
+.side-content4{
+    
+    border-bottom: 1px solid black; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: regular;
+    .text{
+        justify-content: center;
+        padding-top: 3%;
+        line-height: 1.3;
+    }
+}
+.logo-container {
+    display: flex; /* Use flexbox */
+    margin-bottom: 10px; /* Add margin between logo containers */
+}
+.logo-container img {
+    width:auto; /* Set width of images */
+    height:110px;
+    margin-right: 20px; /* Add margin between image and text */
+}
+
+
+.footer {
+    background-color: #030303;
+    color: white;
+    padding: 4% 10%;
+
+}
+
+.email a {
+    background: linear-gradient(90deg, #944EEB, #44BDFC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+
+
+    padding: 5px 10px;
+    /* Add padding to the email link for better appearance */
+
+
+}
+
+.content1,
+.email,
+.icons {
+
+    text-align: center;
+    font-family: regular;
+    padding-bottom: 20px;
+    line-height: 1;
+}
+
+.content1 h2 {
+    font-size: 25px;
+}
+.content1 a{
+    text-decoration: 1.8px underline;
+}
+.content1 p {
+    font-size: 25px;
+}
+
+.email {
+    font-size: 25px;
+    padding-top: 1.6%;
+
+}
+
+.icons {
+
+    padding-top: 3.6%;
+    margin-left: 4%;
+
+}
+
+.icons i {
+    font-size: 2.7em;
+    margin-right: 4%;
+    text-decoration: none;
+
+}
+/* css for About */
+.mainBox{
+   
+
+}
+.mainBox{
+    height:1200px ;
+    width:1208 ;
+
+    margin-top: 20px;
+
+}
+.pic-box{
+    height:400px ;
+    width:582px ;
+    background-color: #ededed;
+    margin-left: 120px;
+    background-image: url("/assets/Illustration\ About\ Page.png");
+    margin-top: 100px;
+
+    margin-bottom: 20px;
+
+}
+.box{
+    height: 100%;
+    width: 100%;
+    
+
+}
+.textBox{
+    height:81px ;
+    width: 404px;
+    margin-left: 380px;
+    display: flex;
+    justify-content: center;
+    padding-top:100px;
+    font-size: 4rem;
+    font-family: regular;
+   
+
+}
+.textBox1{
+    height: 326px; ;
+    width:700px ;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: regular;
+
+
+    padding-right: 55px;
+    margin-left: 750px;
+    padding-top: 15px;
+
+}
+.textBox2{
+    height: 300px; ;
+    width:500px ;
+    padding-right: 75px;
+    margin-left: 760px;
+    padding-top: -45rem;
+    font-family: regular;
+
+    
+}
+.underline1{
+text-decoration: underline;
+}
+.textBox2 a {
+    text-decoration: underline; /* Remove default underline */
+    display: block; /* Make anchor tags behave like block elements */
+    /* margin-bottom: 10px; Add spacing between the links */
+}
+
+.footer{
+    background-color: #030303;
+    color: white;
+    padding: 5% 10%;
+
+}
+.email a {
+    background: linear-gradient(90deg, #944EEB, #44BDFC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+
+     /* Linear gradient from blue to purple */
+    padding: 5px 10px; /* Add padding to the email link for better appearance */
+
+
+}
+.content1,.email,.icons{
+
+    text-align: center;
+    font-family: regular;
+    padding-bottom: 30px;
+}
+.email{
+    font-size: 25px;
+
+}
+.icons{
+
+    padding-top: 3.6%;
+    margin-left: 4%;
+
+}
+.icons i{
+    font-size: 3em;
+    margin-right: 4%;
+    text-decoration: none;
+
+}
+
+/* navbar howering */
+
+.navbar .nav-link::after {
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    height: 2px;
+
+    width: 0;
+    bottom: 0; /* Align with the bottom of the text */
+    left: 0; /* Align with the beginning of the text */
+    transition: width 0.5s; /* Add transition for width change */
+}
+
+.navbar .nav-link:hover::after,
+        .navbar .active::after {
+            width: 100%; /* Expand the underline on hover and for active link */
+        }
+
+/* home content */
+
+/* footer nav */
+.navbar-down a {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    position:relative;
+    margin-left: 11%;
+    font-family: regular;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footerNav{
+    padding-bottom: 3%;
+    margin-left: 30%;
+    margin-right: 33%;
+    /* padding-left: 1%; */
+    /* border: 2px solid white; */
+}
+
+
+
+
+
+
+
+
+    
+
