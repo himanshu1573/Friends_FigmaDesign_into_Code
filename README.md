@@ -7,10 +7,10 @@ This project involves translating a Figma design, created by my friend, into a f
 Below are preview images of the home and work pages from the Figma design:
 
 ### Home Page
-![Home Page]()
+![Home Page](SCR-20240417-tvbs.jpeg)
 
 ### Work Page
-![Work Page]()
+![Work Page](SCR-20240417-ttxb.png)
 
 ## About
 
