@@ -26,7 +26,7 @@ The "Contact" page provides various ways to get in touch with me, including a co
 
 ## Development
 
-This website is being developed using HTML, CSS, and JavaScript. It is designed to be responsive and accessible across different devices and screen sizes.
+This website is being developed using HTML, CSS, and some  JavaScript. It is designed to be interactive .
 
 
 
